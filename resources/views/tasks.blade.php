@@ -114,19 +114,26 @@
         .delete-btn:hover { color: #e74c3c; }
         .inline { display: inline; }
         .author {
+    width: 100%;
     text-align: center;
     font-size: 1rem;
     font-weight: 600;
     color: #4a90e2;
-    margin-bottom: 6px;
     letter-spacing: 0.5px;
+    margin-bottom: 14px;
+}
+
+.author span {
+    color: #333;
+    font-weight: 500;
 }
     </style>
 </head>
-<body>
-<div class="author">Developed by Jamesden Correa</div>
+<body><div class="author">
+Todo App • Developed by <span>Jamesden Correa</span> for GeoPlanPH
+</div>
 <div class="container">
-<h1 style="text-align:center;">My Tasks</h1>
+    <h1>My Tasks</h1>
 
     <form action="/add" method="POST" class="add-form">
         @csrf
