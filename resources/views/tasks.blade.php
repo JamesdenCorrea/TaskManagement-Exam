@@ -124,8 +124,8 @@
     </style>
 </head>
 <body>
-<div class="container">
 <div class="author">Developed by Jamesden Correa</div>
+<div class="container">
 <h1 style="text-align:center;">My Tasks</h1>
 
     <form action="/add" method="POST" class="add-form">
