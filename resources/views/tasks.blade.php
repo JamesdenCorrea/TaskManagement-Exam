@@ -11,10 +11,10 @@
             font-family: Arial, sans-serif;
             background: #f0f2f5;
             display: flex;
-            justify-content: center;
+            flex-direction: column;   /* ADD THIS */
+            align-items: center;      /* CENTER CONTENT */
             padding: 40px 16px;
         }
-
         .container {
             background: #fff;
             border-radius: 10px;
@@ -113,6 +113,7 @@
 
         .delete-btn:hover { color: #e74c3c; }
         .inline { display: inline; }
+
         .author {
     width: 100%;
     text-align: center;
@@ -120,11 +121,11 @@
     font-weight: 600;
     color: #4a90e2;
     letter-spacing: 0.5px;
-    margin-bottom: 14px;
+    margin-bottom: 18px;
 }
 
 .author span {
-    color: #333;
+    color: #4a90e2;
     font-weight: 500;
 }
     </style>
